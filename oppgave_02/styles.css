@@ -1,7 +1,7 @@
 /* Base styling */
 
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 section,
@@ -11,3 +11,70 @@ article {
 }
 
 /* Add styling */
+header {
+  display: grid;
+  grid-template-areas: ". .";
+  column-gap: 85%;
+  box-shadow: 0px 5px lightgray;
+}
+
+p {
+  text-decoration-style: solid;
+  font-weight: bold;
+}
+
+article > p {
+  font-weight: normal;
+}
+
+header > p {
+  flex: 1;
+}
+
+input {
+  border-radius: 50;
+}
+
+textarea {
+  border-radius: 15px;
+}
+
+form > input {
+  color: white;
+  text-decoration-style: bold;
+}
+
+input[type=submit]{
+  background-color: rgb(41, 175, 157);
+}
+
+#ToDoContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+article {
+  width: 33%;
+  box-shadow: 5px 10px rgba(100, 100, 100, 0,5);
+  padding: 20px;
+}
+
+h2 {
+  width: 100%;
+}
+
+article > button{
+  background-color: rgb(41, 175, 157);
+  color: beige; 
+  float: right;
+}
+
+html {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+button {
+  border-radius: 5px;
+}
