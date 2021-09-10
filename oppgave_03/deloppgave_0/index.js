@@ -104,3 +104,18 @@ const changeButton = () => {
 nameInput.addEventListener("keyup", changeButton);
 
 // Oppgave 8
+const children = document.querySelector(".children").querySelectorAll("li");
+const oppgave_8_button = document.getElementById("color");
+
+const makeBorder = () => {
+    for (let i = 0; i < children.length; i++) {
+
+        if (i % 2) {
+            children[i].style.border = "2px solid red";
+        } else {
+            children[i].style.border = "2px solid green";
+        }
+    }
+}
+
+oppgave_8_button.addEventListener("click", makeBorder);
