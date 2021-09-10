@@ -1,0 +1,1 @@
+https://codesandbox.io/s/oppgave-2-forked-ox7uh?file=/src/ingen_hjelp.js
