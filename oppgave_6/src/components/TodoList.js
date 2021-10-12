@@ -1,12 +1,12 @@
 import TodoItem from "./TodoItem"
 
-const TodoList = ({ todos }) => {
+const TodoList = ({ todos, completeTodo }) => {
 
   return(
     <section>
       { todos.map((todo) => (
         
-        <TodoItem key={todo.title} title={todo.title} text={todo.text}/>
+        <TodoItem key={todo.title} title={todo.title} text={todo.text} completeTodo={completeTodo}/>
       ))
       
       }

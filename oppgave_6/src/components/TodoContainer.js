@@ -14,14 +14,31 @@ const TodoContainer = () => {
     }
   ])
 
-  console.log(todos?.length > 0)
+  const addTodo = (title, text) => {
+    // Kan ende opp med like nøkler dersom noen legger inn samma tittel flere ganger
+    const temp = {
+      title: title.value,
+      text: text.value
+    }
+
+    setTodos((previous) => [
+      temp, ...previous
+    ]
+    )
+  }
+
+
+  const completeTodo = (titel) => {
+    const temp = todos.filter((todo) => todo.title !== titel)
+    setTodos(temp)
+  }
 
   
   return (
     <main>
-      <CreateTodo />
+      <CreateTodo addTodo={addTodo}/>
       {todos?.length > 0 ?
-        <TodoList todos={todos} />
+        <TodoList completeTodo={completeTodo} todos={todos} />
         : null
       }
     </main>
