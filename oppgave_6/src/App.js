@@ -1,13 +1,13 @@
-import MyComponent from './components/MyComponent'
+import React from 'react'
+import Nav from "./components/Nav"
+import TodoContainer from './components/TodoContainer'
 
 const App = () => (
-  // Write JavaScript, use Hooks, add state and more
+  	<>
+		<Nav />
 
-  <main>
-    <p>Add JSX</p>
-    <p>Add components</p>
-    <MyComponent />
-  </main>
+		<TodoContainer />
+  	</>
 )
 
 export default App

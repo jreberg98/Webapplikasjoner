@@ -1,7 +1,7 @@
 @import 'reset.scss';
 
 html {
-  font-size: 62.5%;
+  font-size: 100.5%;
 }
 
 body {
@@ -16,4 +16,36 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+	box-shadow: gray 0 5px;
+}
+
+form {
+	margin: 40px;
+}
+
+input, textarea {
+	border-radius: 5px;
+}
+
+section {
+	margin: 40px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+}
+
+article {
+	border: 2px solid green;
+	border-radius: 5px;
+	padding: 10px;
+  margin-top: 10px;
+  width: 30%;
 }
