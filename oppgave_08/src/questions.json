@@ -1,0 +1,76 @@
+{
+  "questinons": [
+    {
+      "title": "Er dette et sprøsmål?",
+      "answers": [
+        {
+          "answer": "Nei"
+        },
+        {
+          "answer": "Ja",
+          "correct": true
+        },
+        {
+          "answer": "Hva er et sprøsmål?"
+        },
+        {
+          "answer": "Alle er rett"
+        }
+      ]
+    },
+    {
+      "title": "Når kommer neste pokemon spill",
+      "answers": [
+        {
+          "answer": "Juleaften"
+        },
+        {
+          "answer": "21. januar"
+        },
+        {
+          "answer": "Pokemon har gått konkurs"
+        },
+        {
+          "answer": "19. november",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Hva smaker sjokoladekjeks?",
+      "answers": [
+        {
+          "answer": "Sjokoladekjeks"
+        },
+        {
+          "answer": "Kjeks"
+        },
+        {
+          "answer": "Sjokolade"
+        },
+        {
+          "answer": "Alle er rett",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "title": "Er vi snart framme?",
+      "answers": [
+        {
+          "answer": "Jada"
+        },
+        {
+          "answer": "Aldri"
+        },
+        {
+          "answer": "Vi har ikke reist ennå",
+          "correct": true
+        },
+        {
+          "answer": "Veien er målet"
+        }
+      ]
+    }
+  ]
+}
