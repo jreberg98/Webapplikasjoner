@@ -32,9 +32,12 @@ const questions = [
 export default function handler(req, res) {
   switch (req.method) {
     case "POST":
+      questions.push(req.body)
+
       res.status(201)
       res.json({
-        
+        sucess:true,
+        data: questions
       })
 
     case "GET":
