@@ -20,5 +20,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "WillLuke.nextjs.hasPrompted": true,
-  "eslint.workingDirectories": ["./tictactoe"]
+  "eslint.workingDirectories": ["./oppgave_09"]
 }
