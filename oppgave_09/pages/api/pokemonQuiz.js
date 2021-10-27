@@ -15,7 +15,7 @@ const questions = [
     ],
   },
   {
-    question: "Hvor er showdown?",
+    question: "Hva er showdown?",
     answers: [
       {
         answer: "Kampsimulator",
