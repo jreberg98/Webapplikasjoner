@@ -20,7 +20,7 @@
   },
   "rules": {
     "indent": 0,
-    "quotes": ["error", "single"],
+    "quotes": ["warning", "double"],
     "semi": ["error", "never"],
     "func-style": 0,
     "max-len": 0,
