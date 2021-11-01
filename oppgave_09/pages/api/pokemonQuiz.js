@@ -41,6 +41,25 @@ export default function handler(req, res) {
       })
 
     case "GET":
+
+			// Returnerer spørsmål på tilsvarende index
+			if (req?.query?.id) {
+				if (req.query.id >= questions.length){
+					res.status(404)
+					res.json({sucess: false,
+										error: "indeksen er for stor"})
+					res.end()
+					return
+				}
+				res.status(200)
+				res.json({sucess: true,
+									data: questions[req.query.id]
+				})
+				res.end()
+				return;
+			}
+
+			// Ingen parameter
       res.status(200)
       res.json({
           sucess: true,
